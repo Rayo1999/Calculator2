@@ -1,0 +1,512 @@
+body{
+    margin:0;
+    padding:0;
+box-sizing: border-box;}
+
+.container{
+    
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    
+}
+
+.calculator{
+    background-color:black;
+    border-radius: 38px;
+    border: goldenrod 7px solid;
+    margin-top: 4rem;
+    width: 34vw;
+    height: 106vh;
+    padding: 2rem;
+}
+
+.button{
+    border: 0;
+    outline:0;
+    width:69px;
+    height: 69px;
+    border-radius: 50%;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255,0.1), 5px 5px 15px rgba(0, 0, 0,0.2);
+    cursor: pointer;
+    margin: 6px;
+    background-color:black;
+    color: white;
+    border: gray 3px solid;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.button1{
+    border: 0;
+    outline:0;
+    width:69px;
+    height: 69px;
+    border-radius: 50%;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255,0.1), 5px 5px 15px rgba(0, 0, 0,0.2);
+    background: white;
+    color:black;
+    cursor: pointer;
+    margin: 6px;
+    background-color: darkgray;
+    border-radius:50% ;
+    width: 69px;
+    height: 69px;
+    border: darkgray 3px solid;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.button2{
+    border: 0;
+    outline:0;
+    width:69px;
+    height: 69px;
+    border-radius: 50%;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255,0.1), 5px 5px 15px rgba(0, 0, 0,0.2);
+    background: white;
+    color:black;
+    cursor: pointer;
+    margin: 6px;
+    background-color: goldenrod;
+    border-radius:50% ;
+    width: 69px;
+    height: 69px;
+    border: goldenrod 3px solid;
+    font-size: 26px;
+    font-weight: 500;
+    gap: 5rem;
+    
+}
+
+
+.display1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 1rem;
+}
+.display {
+background-color: gray;
+width:35vw;
+height: 23vh;
+margin: auto;
+margin-top: 2rem;
+border-radius: 10px;
+font-size: 25px;
+flex:1;
+text-align: right;}
+
+
+/* form input.zero{
+    width:145px;
+    border: 0%;
+} */
+
+.equal{
+    border: 0;
+    outline:0;
+    width:69px;
+    height: 69px;
+    border-radius: 50%;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255,0.1), 5px 5px 15px rgba(0, 0, 0,0.2);
+    background: goldenrod;
+    color:black;
+    cursor: pointer;
+    margin: 6px;
+    font-size: 26px;
+}
+
+.equal:hover{
+    background-color: gold;
+}
+.zero{
+    width:154px !important;
+    border-radius: 20px;
+    height: 69px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255,0.1), 5px 5px 15px rgba(0, 0, 0,0.2);
+    background: white;
+    color:black;
+    cursor: pointer;
+    margin: 6px;
+    background-color:black;
+    color: white;
+    border: gray 3px solid;
+    font-size: 26px;
+    font-weight: 400;
+}
+.zero:hover{
+    background-color: gray;
+}
+.button1:hover
+{background-color:gray;}
+
+.button:hover
+{background-color:grey;}
+
+.button2:hover
+{background-color:gold;}
+
+@media screen and (max-width:500px) 
+{
+
+    .calculator{
+        width: 100vw;
+        height: 75vh;
+        background-color:black;
+        border-radius: 28px;
+        border: goldenrod 4px solid;
+        margin-top: 4rem;
+    
+    }
+    
+    .forms{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+    
+    .display{
+        background-color: gray;
+        width:65vw;
+        height: 17vh;
+        margin: auto;
+        margin-top: 2rem;
+        border-radius: 10px;
+    }
+    
+    .button{
+        border: 0;
+        outline:0;
+        width:59px;
+        height: 59px;
+        border-radius: 50%;
+        box-shadow: -8px -8px 15px rgba(255, 255, 255,0.1), 5px 5px 15px rgba(0, 0, 0,0.2);
+        cursor: pointer;
+        margin: 6px;
+        background-color:black;
+        color: white;
+        border: gray 3px solid;
+        font-size: 15;
+        font-weight: 400;
+    }
+    
+    .button1{
+        border: 0;
+        outline:0;
+        width:69px;
+        height: 69px;
+        border-radius: 50%;
+        box-shadow: -8px -8px 15px rgba(255, 255, 255,0.1), 5px 5px 15px rgba(0, 0, 0,0.2);
+        background: white;
+        color:black;
+        cursor: pointer;
+        margin: 6px;
+        background-color: darkgray;
+        border-radius:50% ;
+        width: 59px;
+        height: 59px;
+        border: darkgray 3px solid;
+        font-size: 26px;
+        font-weight: 500;
+    }
+    
+    .button2{
+        border: 0;
+        outline:0;
+        width:69px;
+        height: 69px;
+        border-radius: 50%;
+        box-shadow: -8px -8px 15px rgba(255, 255, 255,0.1), 5px 5px 15px rgba(0, 0, 0,0.2);
+        background: white;
+        color:black;
+        cursor: pointer;
+        margin: 6px;
+        background-color: goldenrod;
+        border-radius:50% ;
+        width: 63px;
+        height: 63px;
+        border: goldenrod 3px solid;
+        font-size: 26px;
+        font-weight: 500;
+        gap: 5rem;
+        
+    }
+    
+    .zero{
+        width:124px !important;
+        border-radius: 20px;
+        height: 69px;
+        box-shadow: -8px -8px 15px rgba(255, 255, 255,0.1), 5px 5px 15px rgba(0, 0, 0,0.2);
+        background: white;
+        color:black;
+        cursor: pointer;
+        margin: 6px;
+        background-color:black;
+        color: white;
+        border: gray 3px solid;
+        font-size: 15;
+        font-weight: 400;
+    }
+
+    .equal{
+        border: 0;
+        outline:0;
+        width:69px;
+        height: 69px;
+        border-radius: 50%;
+        box-shadow: -8px -8px 15px rgba(255, 255, 255,0.1), 5px 5px 15px rgba(0, 0, 0,0.2);
+        background: goldenrod;
+        color:black;
+        cursor: pointer;
+        margin: 6px;
+    }
+}
+    
+    
+
+
+@media screen  and  (min-width:500px)  and (max-width:989px) 
+{
+
+    .calculator{
+        width: 85vw;
+        height: 75vh;
+        background-color:black;
+        border-radius: 28px;
+        border: goldenrod 4px solid;
+        margin-top: 4rem;
+    
+    }
+    
+    .forms{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+    
+    .display{
+        background-color: gray;
+        width:65vw;
+        height: 17vh;
+        margin: auto;
+        margin-top: 2rem;
+        border-radius: 10px;
+    }
+    
+    .button{
+        border: 0;
+        outline:0;
+        width:79px;
+        height: 79px;
+        border-radius: 50%;
+        box-shadow: -8px -8px 15px rgba(255, 255, 255,0.1), 5px 5px 15px rgba(0, 0, 0,0.2);
+        cursor: pointer;
+        margin: 6px;
+        background-color:black;
+        color: white;
+        border: gray 3px solid;
+        font-size: 15;
+        font-weight: 400;
+    }
+    
+    .button1{
+        border: 0;
+        outline:0;
+        width:69px;
+        height: 69px;
+        border-radius: 50%;
+        box-shadow: -8px -8px 15px rgba(255, 255, 255,0.1), 5px 5px 15px rgba(0, 0, 0,0.2);
+        background: white;
+        color:black;
+        cursor: pointer;
+        margin: 6px;
+        background-color: darkgray;
+        border-radius:50% ;
+        width: 79px;
+        height: 79px;
+        border: darkgray 3px solid;
+        font-size: 26px;
+        font-weight: 500;
+    }
+    
+    .button2{
+        border: 0;
+        outline:0;
+        width:69px;
+        height: 69px;
+        border-radius: 50%;
+        box-shadow: -8px -8px 15px rgba(255, 255, 255,0.1), 5px 5px 15px rgba(0, 0, 0,0.2);
+        background: white;
+        color:black;
+        cursor: pointer;
+        margin: 6px;
+        background-color: goldenrod;
+        border-radius:50% ;
+        width: 79px;
+        height: 79px;
+        border: goldenrod 3px solid;
+        font-size: 26px;
+        font-weight: 500;
+        gap: 5rem;
+        
+    }
+    
+    .zero{
+        width:175px !important;
+        border-radius: 20px;
+        height: 69px;
+        box-shadow: -8px -8px 15px rgba(255, 255, 255,0.1), 5px 5px 15px rgba(0, 0, 0,0.2);
+        background: white;
+        color:black;
+        cursor: pointer;
+        margin: 6px;
+        background-color:black;
+        color: white;
+        border: gray 3px solid;
+        font-size: 15;
+        font-weight: 400;
+    }
+
+    .equal{
+        border: 0;
+        outline:0;
+        width:79px;
+        height: 79px;
+        border-radius: 50%;
+        box-shadow: -8px -8px 15px rgba(255, 255, 255,0.1), 5px 5px 15px rgba(0, 0, 0,0.2);
+        background: goldenrod;
+        color:black;
+        cursor: pointer;
+        margin: 6px;
+    }
+}
+    
+
+
+
+@media screen  and  (min-width:1000px)
+
+{
+    .calculator{
+        width: 85vw;
+        height: 78vh;
+        background-color:black;
+        border-radius: 28px;
+        border: goldenrod 4px solid;
+        margin-top: 4rem;
+    
+    }
+    
+    .forms{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+    
+    .display{
+        background-color: gray;
+        width:65vw;
+        height: 17vh;
+        margin: auto;
+        margin-top: 2rem;
+        border-radius: 10px;
+    }
+    
+    .button{
+        border: 0;
+        outline:0;
+        width:79px;
+        height: 79px;
+        border-radius: 50%;
+        box-shadow: -8px -8px 15px rgba(255, 255, 255,0.1), 5px 5px 15px rgba(0, 0, 0,0.2);
+        cursor: pointer;
+        margin: 6px;
+        background-color:black;
+        color: white;
+        border: gray 3px solid;
+        font-size: 15;
+        font-weight: 400;
+    }
+    
+    .button1{
+        border: 0;
+        outline:0;
+        width:69px;
+        height: 69px;
+        border-radius: 50%;
+        box-shadow: -8px -8px 15px rgba(255, 255, 255,0.1), 5px 5px 15px rgba(0, 0, 0,0.2);
+        background: white;
+        color:black;
+        cursor: pointer;
+        margin: 6px;
+        background-color: darkgray;
+        border-radius:50% ;
+        width: 79px;
+        height: 79px;
+        border: darkgray 3px solid;
+        font-size: 26px;
+        font-weight: 500;
+    }
+    
+    .button2{
+        border: 0;
+        outline:0;
+        width:69px;
+        height: 69px;
+        border-radius: 50%;
+        box-shadow: -8px -8px 15px rgba(255, 255, 255,0.1), 5px 5px 15px rgba(0, 0, 0,0.2);
+        background: white;
+        color:black;
+        cursor: pointer;
+        margin: 6px;
+        background-color: goldenrod;
+        border-radius:50% ;
+        width: 79px;
+        height: 79px;
+        border: goldenrod 3px solid;
+        font-size: 26px;
+        font-weight: 500;
+        gap: 5rem;
+        
+    }
+    
+    .zero{
+        width:175px !important;
+        border-radius: 20px;
+        height: 69px;
+        box-shadow: -8px -8px 15px rgba(255, 255, 255,0.1), 5px 5px 15px rgba(0, 0, 0,0.2);
+        background: white;
+        color:black;
+        cursor: pointer;
+        margin: 6px;
+        background-color:black;
+        color: white;
+        border: gray 3px solid;
+        font-size: 15;
+        font-weight: 400;
+    }
+
+    .equal{
+        border: 0;
+        outline:0;
+        width:79px;
+        height: 79px;
+        border-radius: 50%;
+        box-shadow: -8px -8px 15px rgba(255, 255, 255,0.1), 5px 5px 15px rgba(0, 0, 0,0.2);
+        background: goldenrod;
+        color:black;
+        cursor: pointer;
+        margin: 6px;
+    }
+}
+
+
+
